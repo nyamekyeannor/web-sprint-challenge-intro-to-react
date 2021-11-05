@@ -15,10 +15,10 @@ You are not allowed to collaborate during the sprint challenge.
 - [ x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
 - [ x] Open the assignment in Canvas and click on the "Set up git" option (Or, depending, if you see something along the lines of 'Load Sprint Challenge Submission in a new window' click that).
 - [ x] Wire your fork to Codegrade using the "Click here for instructions on setting up Git submissions" link, select Github, authorize Github.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`. MAKE SURE TO PUSH TO MAIN, YOU NO LONGER NEED TO CREATE A NEW BRANCH!!
-- [ ] Make commits often! PUSH TO MAIN!!!
-- [ ] You can run tests locally by running npm run test.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [ x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`. MAKE SURE TO PUSH TO MAIN, YOU NO LONGER NEED TO CREATE A NEW BRANCH!!
+- [ x] Make commits often! PUSH TO MAIN!!!
+- [ x] You can run tests locally by running npm run test.
+- [ x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -79,6 +79,9 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+   React is a JavaScript library for building user interfaces and it helps us take hard UI and dumb it down into nestable and reusable pieces which we called components that merges together. Components in react is a JavaScript function that on can you can add with markup. React really does make our lives easier. We can use it to help us in not writing so many lines of code where we would most-likley write more lines with JavaSript. One key thing to also know is that in react you can write syntax called JSX where you can embed JS and HTML in the same file.
+
 1. Describe component state.
+   Component state is the state object where we are able to store property values that belongs to the component. One thing to keep in mind is that when the state object changes, the component will also re-renders.
 1. Describe props.
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?

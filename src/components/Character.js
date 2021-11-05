@@ -8,8 +8,8 @@ function Character(props) {
     // ))
     <div className="character-list">
       <div className="character-list__name">
-        <h2>characterName</h2>
-        <div className="character-list__number">characterNumber</div>
+        <h2>{props.movieTitle}</h2>
+        <div className="character-list__number">{props.releaseDate}</div>
       </div>
     </div>
   );
