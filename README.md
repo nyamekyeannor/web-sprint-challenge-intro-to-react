@@ -84,4 +84,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Describe component state.
    Component state is the state object where we are able to store property values that belongs to the component. One thing to keep in mind is that when the state object changes, the component will also re-renders.
 1. Describe props.
+   React Props are like function arguments in JavaScript and attributes in HTML. This is how you pass data from one component to another, as parameters.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+   The side effects are anything outside the scope of our function that is being ran. Something like making an API call for our data
